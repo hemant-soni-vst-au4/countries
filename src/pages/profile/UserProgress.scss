@@ -1,0 +1,133 @@
+.profile-progress-tab {
+  .profile-progress {
+    background: url('profile_progress.svg');
+    background-size: 107.7% 100%;
+    background-repeat: no-repeat;
+
+    h2 {
+      span {
+        font-size: 17px;
+      }
+    }
+
+    // Custom Calender CSS
+    .arrow-icons {
+      font-size: 32px;
+    }
+    .current-month {
+      // font-size: 22px;
+      // font-weight: 600;
+    }
+
+    .border-bottom {
+      border-bottom: 4px solid #f8f6f6;
+    }
+
+    .calender-weekdays {
+      padding-bottom: 5px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .week-days {
+      color: #212121;
+    }
+    .weekend {
+      color: #747474;
+    }
+
+    .last-month-dates,
+    .next-month-dates,
+    .current-month-dates {
+      -webkit-box-flex: 0 !important;
+      -webkit-flex: 0 0 8.33333% !important;
+      -ms-flex: 0 0 8.33333% !important;
+      flex: 0 0 14.285714285714286% !important;
+      width: 14.285714285714286% !important;
+      max-width: 14.285714285714286% !important;
+      padding: 20px 0px;
+      color: #212121;
+      font-weight: 700;
+      line-height: 2em;
+    }
+    .month-date {
+      width: 14.2%;
+      font-size: 12px;
+      margin: 20px 0;
+      color: rgba(0, 0, 0, 0.87);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      line-height: 1;
+    }
+    .last-month-dates,
+    .next-month-dates {
+      visibility: hidden;
+    }
+    // Custom Calender CSS
+
+    .current-month {
+      color: #747474;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 15px;
+      img {
+        width: 3.5%;
+        float: left;
+        margin-right: 10px;
+      }
+      span,
+      .drop-down {
+        cursor: pointer;
+      }
+      span {
+        border-bottom: 1px solid #747474;
+      }
+      .drop-down {
+        font-size: 28px;
+        vertical-align: middle;
+      }
+    }
+    .lessons-count {
+      strong {
+        font-size: 40px;
+        // margin-right: 10px;
+      }
+      margin-top: 10px;
+    }
+    small {
+      font-size: 14px;
+    }
+
+    @media only screen and (max-width: 414px) {
+      background: url('profile_progress-mobile.svg');
+      background-size: 110% 130%;
+      padding-left: 25px;
+      background-repeat: no-repeat;
+
+      .current-month {
+        img {
+          width: 6%;
+        }
+      }
+    }
+    @media only screen and (min-width: 1700px) {
+      .lessons-count {
+        margin-top: 32px;
+      }
+    }
+  }
+  .profile-bg-yellow {
+    background: url('profile-bg-yellow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    h3 {
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+    ion-button {
+      margin-bottom: 50px;
+    }
+  }
+}

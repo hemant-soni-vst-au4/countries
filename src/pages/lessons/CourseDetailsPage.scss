@@ -1,0 +1,77 @@
+.course-details-page {
+  ion-spinner {
+    display: block;
+    margin: 0 auto;
+    height: 275px;
+  }
+
+  .c-orange {
+    color: #f47d3e!important;
+  }
+
+  .c-dark-grey {
+    color: #747474;
+  }
+  .c-dark {
+    font-weight: 700;
+    color: #747474;
+  }
+  .youtube-handler {
+    padding-top: 10px;
+    background: #efefef;
+    padding-bottom: 4px;
+
+    ion-icon {
+      font-size: 35px;
+      // padding: 5px 5px 5px 5.5px;
+      // border-radius: 25px;
+      // background: #efefef;
+      // border: 2px solid #000;
+    }
+  }
+  .player-wrapper {
+    position: relative;
+    background-color: #000;
+    min-height: 250px;
+    .player-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 200;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .play-btn {
+        position: relative;
+        overflow: hidden;
+        // background-color: #822;
+        border-radius: 10px;
+        width: 95%;
+        height: 60%;
+      }
+    }
+  }
+  ion-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    line-height: 2em;
+    ion-label {
+      .lesson-name {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .studied-date {
+        font-size: 14px;
+        text-align: right;
+        color: #c6c6c6;
+      }
+    }
+    ion-icon {
+      margin-inline-start: 5px;
+      margin-inline-end: 0px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Speaky Peaky",
+    "short_name": "Speaky Peaky",
+    "theme_color": "#e22d2d",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/?source=pwa",
+    "icons": [
+      {
+        "src": "assets/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "play_store_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAja51JiWW/jzBpnn/Hgm7iEkDnNrQ/GOmrf7hKhPF+Jj8LovsSspEEtprkLIyUaK0j+5v7bqVVu0IobUnIVPfgh3yj9MDatzzIYuqhIxUaB5IgQJSOc7/hAx7Ro/ZLv39ZPKbBYaNlyoX3YmCR/Zg5q7QB2wQ9HGkrn82rYMYkc8ddzob20OEyZFYlsHJ9bgtu7LxsDX4l12ctmZcZgJqtYGtP7x/u6ydKz1Ui5CzzSmWgm87EwRWfY7Bg/fq7Ybht+DFONlVZnrb79s37m35jwKJy35MrZl3UTPecDvERtiuAHX3Tc8YdBysjnPE0NoA1v44Q3PJxt64E1if4bm/0wIDAQAB"
+  }

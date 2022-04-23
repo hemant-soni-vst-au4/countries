@@ -1,0 +1,38 @@
+.comment {
+  border-bottom: 1px solid #d8d8d8;
+  ion-label {
+    margin: 8px 0px 8px 0px;
+  }
+  .comment-user {
+    font-size: 15px;
+    color: #828080;
+  }
+  .comment-description {
+    color: #212121;
+    white-space: initial;
+  }
+  p {
+    margin-top: 15px;
+    color: #828080;
+    ion-img {
+      width: 18px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+    ion-text {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    .comment-like,
+    .comment-disLike {
+      margin-right: 10px;
+    }
+    ion-icon {
+      font-size: 24px;
+    }
+  }
+  .view-replies {
+    margin-bottom: 10px;
+  }
+}

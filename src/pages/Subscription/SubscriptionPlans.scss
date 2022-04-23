@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+.heading {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 20.85px;
+}
+.subheading {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 34.05px;
+}
+.subscription-card {
+  // background-color: #d8d8d8;
+  padding: 0px 16px;
+  min-height: 340px;
+  transition: transform 0.5s;
+  border-radius: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: #fff;
+  p {
+    color: #636363;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    padding: 10px 20px -10px 20px;
+  }
+}
+
+.subscription-card:hover {
+  transform: scale(1.05);
+}
+
+.subscription-title {
+  color: #000000;
+  font-size: 25px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+  line-height: 1.5;
+}
+
+.subscription-amount {
+  color: #000000;
+  font-size: 25px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+  line-height: 1.334;
+}
+
+.subscription-amount2 {
+  font-size: 16px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+  line-height: 1.75;
+  color: #000000;
+}
+
+ul > li {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 21.79px;
+}
+.monthly-list {
+  padding: 19px 0 19px 39px;
+  border-top: 1px solid #e22d2d;
+  margin-top: 33px;
+  border-bottom: 1px solid #949494;
+}
+
+.yearly-list {
+  padding: 19px 0 19px 39px;
+  border-top: 1px solid #e22d2d;
+  margin-top: 4px;
+  border-bottom: 1px solid #949494;
+}
+.subs-me img {
+  width: 100%;
+}
+.subscribed {
+  margin-top: 40px;
+}
+
+// img:hover {
+//   cursor: pointer;
+// }
+
+.apple {
+  position: absolute;
+  left: 450px;
+  top: 205px;
+  width: 30%;
+  height: 69%;
+  background-color: transparent;
+}
+
+.google {
+  position: absolute;
+  left: 97px;
+  top: 205px;
+  width: 25%;
+  height: 69%;
+  background-color: transparent;
+}
+
+.apple:hover,
+.google:hover {
+  cursor: pointer;
+}
+.my-custom-btn1 .alert-button-inner {
+  color: #fff;
+  background-color: black;
+  padding: 7px 15px;
+  border-radius: 22px;
+}
+.my-custom-btn2 .alert-button-inner {
+  color: #fff;
+  background-color: #e22d2d;
+  padding: 7px 15px;
+  border-radius: 22px;
+}
+
+.subs-image {
+  // background-image: url("./assets/images/Capture1.PNG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subs-me {
+  width: 30%;
+  margin: 25% 0 5% 17%;
+}
+
+.googlePlay:hover {
+  cursor: pointer;
+}
+
+.android-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apple-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.modal {
+  
+  .android-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-left: 100px;
+  }
+
+  .apple-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+  }
+
+  
+  .heading h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .heading h5 {
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #636363;
+  }
+
+  .heading span {
+    color: #e22d2d;
+  }
+
+  img {
+    padding: 5px 0px;
+  }
+
+  .googlePlay:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .subheading {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 34.05px;
+    margin: 0;
+  }
+  .subscription-card {
+    margin: 10px 0;
+  }
+  .myModal{
+    --width: 294px;
+    --height: 278px;
+  .modal {
+    .subtite {
+      display: none;
+    }
+    #modal-button {
+      display: flex;
+      font-weight: bold;
+    }
+    .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 25px 18px 25px;
+      
+    }
+    .heading span {
+      color: black;
+    }
+    .android-content {
+      display: none;
+    }
+  }
+}
+
+  //  .subs-me {
+  //   width: 35%;
+  // }
+}
+@media only screen and (min-width: 768px) {
+  
+  .myModal{
+    --width: 500px;
+    --height: 480px;
+  .modal {
+    #modal-button {
+      display: none;
+    }
+    .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 60px 20px 60px;
+    }
+    .android-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // padding-left: 100px;
+    }
+  }
+  }
+}
+// .monthly {
+//   ion-card-content {
+//     padding: 30px 0px;
+//   }
+// }
+// .subscription-card p,
+// .subscription-title,
+// .subscription-amount,
+// .stripe-subscription-card {
+//   color: #212121;
+// }
+// .subscription-title {
+//   font-size: 21px;
+//   font-weight: 300;
+// }
+// .subscription-amount {
+//   font-size: 34px;
+//   span {
+//     font-size: 18px;
+//   }
+// }
+// .light-bg {
+//   padding: 20px 0px;
+//   background-color: #eeeeee;
+// }
+
+// .year {
+//   border: 4px solid #e02020;
+// }
+// .half-year {
+//   border: 1px solid #e02020;
+// }
+
+// .flag {
+//   width: 75px;
+//   height: 28px;
+//   margin: 0 auto;
+//   position: absolute;
+//   padding: 8px 0px;
+//   top: 15px;
+//   right: 25px;
+//   z-index: 999;
+//   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+//   background: #e02020;
+//   color: #ffffff;
+//   font-size: 16px;
+//   text-align: center;
+// }
+
+// .flag:after {
+//   right: 0;
+//   border-right: 45px solid #e02020;
+// }
+// .flag:before {
+//   left: 0;
+//   border-left: 45px solid #e02020;
+// }
+// .flag:after,
+// .flag:before {
+//   content: '';
+//   position: absolute;
+//   width: 0;
+//   height: 0;
+//   bottom: -14px;
+//   border-bottom: 15px solid transparent;
+// }
+.productCard {
+  cursor: pointer;
+}
+// #auto-renewal {
+//   text-decoration: underline;
+//   cursor: pointer;
+// }
+
+// .stripe-subscription-card {
+//   border-radius: 25px;
+//   margin: 0px 15px;
+//   height: 426px;
+//   ion-card-content {
+//     padding: 25px 16px;
+//     ion-button {
+//       margin-bottom: 20px;
+//     }
+//   }
+//   .price-block {
+//     border-bottom: 1px solid #7b7b7b;
+//     min-height: 265px;
+//   }
+// }
+
+// .stripe-subscription-title {
+//   margin-bottom: 20px;
+// }
+// .stripe-subscription-amount,
+// .stripe-subscription-title {
+//   font-weight: 700;
+// }
+// .stripe-subscription-amount {
+//   font-size: 34px;
+// }
+// .actual-price {
+//   font-size: 20px;
+//   margin-top: 5px;
+//   font-weight: 700;
+//   margin-bottom: 18px;
+// }
+// .sub-prices {
+//   font-size: 18px;
+//   text-decoration: line-through;
+//   text-decoration-color: red;
+// }
+// .stripe-subscription-card.monthly {
+//   .stripe-subscription-amount {
+//     margin-bottom: 45px;
+//     margin-top: 30px;
+//   }
+// }

@@ -1,0 +1,31 @@
+.lesson-complete {
+  .lesson-progress {
+    width: 55%;
+    margin: 0px auto;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .checkmark-grey {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .completed-lessons-count {
+    font-size: 26px;
+  }
+  small {
+    color: #747474;
+    font-size: 17px;
+  }
+  .subs {
+    --background: #E22D2D;
+        --border-width: 0px;
+        --border-style: solid;
+        --background-hover: #c45555;
+  }
+  @media only screen and (max-width: 414px) {
+    .checkmark-grey {
+      width: 45%;
+    }
+  }
+}

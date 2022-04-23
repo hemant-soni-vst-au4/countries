@@ -1,0 +1,8 @@
+{
+  "name": "Speaky-Peaky",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type":"react"
+}

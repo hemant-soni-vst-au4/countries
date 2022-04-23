@@ -1,0 +1,24 @@
+.app-info {
+#share-icons {
+    display: block;
+    margin: 0 auto;
+  }
+  ul {
+    padding-inline-start: 20px;
+    li:first-child {
+      margin-bottom: 1em;
+    }
+  }
+  .copy-link {
+    display: block;
+    background: white;
+    padding: 15px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    .link {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

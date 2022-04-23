@@ -1,0 +1,117 @@
+.review-page {
+  h1 {
+    margin: 10px 0px 0px 15px;
+  }
+  .completed-lessons {
+    .titleMargin {
+      margin: 13px 13px 0 13px;
+    }
+
+    ion-note {
+      margin: 0px 13px 0px 13px;
+      font-size: 22px;
+      line-height: 1.6;
+      text-align: center;
+      color: #747474;
+    }
+    ion-thumbnail {
+      min-height: 100px;
+      width: 30%;
+      max-width: 180px;
+      margin-right: 16px;
+      img {
+        // height: 100px;
+        border-radius: 10px;
+      }
+      @media only screen and (max-width: 414px) {
+        min-height: auto;
+        height: 64px;
+      }
+    }
+    .lesson-name {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 18px;
+    }
+
+    .lesson-level {
+      color: #f47d3e;
+      padding-bottom: 0.5rem;
+      font-size: 12.5px;
+    }
+    
+    .lesson-completed-date {
+      padding-top: 0.5rem;
+      font-size: 12.5px;
+    }
+    .lesson-completed-date {
+      color: #212121;
+    }
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+  .border-bottom {
+    border-bottom: 1px solid #efefef;
+  }
+  .phrase-n-vocab {
+    .usernote-word {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 18px;
+      margin: 0 16px;
+    }
+    .play-icon {
+      min-height: 100px;
+      width: 30%;
+    }
+    @media only screen and (max-width: 414px) {
+      .play-icon {
+        min-height: auto;
+        height: 64px;
+        width: 55%;
+      }
+    }
+  }
+}
+
+.userNoteModal {
+  --border-radius: 10px;
+  --width: 360px;
+  --height: 260px;
+  .usernote-content {
+    position: relative;
+    padding: 15px;
+    overflow: scroll;
+    .modal-header {
+      position: fixed;
+      display: flex;
+      align-items: center;
+      padding: 16px;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: white;
+      z-index: 1;
+      // justify-content: center;
+      align-items: center;
+      .title-word {
+        flex: 1;
+        padding-left: 15px;
+        text-align: left;
+        font-weight: 700;
+      }
+      .play-icon {
+        height: 2em;
+      }
+      .modal-dismiss {
+        font-size: 25px;
+      }
+    }
+    .modal-body {
+      margin-top: 29px;
+    }
+  }
+}

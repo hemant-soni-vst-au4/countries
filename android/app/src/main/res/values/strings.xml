@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Speaky Peaky</string>
+    <string name="title_activity_main">Speaky Peaky</string>
+    <string name="package_name">com.summer.startenglishnow</string>
+    <string name="custom_url_scheme">com.summer.startenglishnow</string>
+</resources>

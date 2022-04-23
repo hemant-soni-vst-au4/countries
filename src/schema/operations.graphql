@@ -1,0 +1,372 @@
+query getProfile {
+  profile {
+    _id
+    status
+    completedLesson
+    subscriptionLesson
+    currentPackage
+    subscriptionType
+    trialLessonLimit
+    isLevel
+    isAdmin
+    signupType
+    fullName
+    email
+    platform
+    userLevelId
+    userLevelName
+    stripeSandBoxCustomerId
+    stripeLiveCustomerId
+    extraSubscriptionLesson
+    subscriptionProductId
+    # androidPurchaseToken
+    # iOSPurchaseToken
+    subTitleLanguage
+    userSubscriptionStartDate
+    userSubscriptionEndDate
+    profilePic
+    nativeLanguage {
+      _id
+      languageKey
+      languageName
+    }
+    # isPasswordExists
+    total
+  }
+}
+
+query popularLessons {
+  popularLessons {
+    total
+    totalLessons
+    data {
+      subLessonId
+      lessonName
+      srtFile
+      startTime
+      endTime
+      createdAt
+      updatedAt
+      lessonId
+      # topicDetails
+      videoLevel
+      videoLevelLabel @client
+      youtubeId
+      title
+      introduction
+      tags
+      isSingle
+      # subCreatedAt
+      # subUpdatedAt
+      day
+      savedCreatedAt
+      isCompleted
+    }
+  }
+}
+
+fragment LessonFields on Lesson {
+  _id
+  subLessonId
+  lessonName
+  srtFile
+  startTime
+  endTime
+  createdAt
+  updatedAt
+  lessonId
+  # topicDetails
+  videoLevel
+  videoLevelLabel @client
+  videoType
+  youtubeId
+  title
+  introduction
+  tags
+  isSingle
+  # subCreatedAt
+  # subUpdatedAt
+  day
+  savedCreatedAt
+  isCompleted
+}
+fragment DashboardLessonFields on Lesson {
+  _id
+  lessonName
+  videoLevel
+  videoLevelLabel @client
+  videoType
+  youtubeId
+}
+
+query myCourses($page: Int!) {
+  myCourses(page: $page) {
+    _id
+    # tags
+    # isSingle
+    title
+    introduction
+    youtubeId
+    videoLevel
+    videoLevelLabel @client
+    topicTitle
+    # topicDetails
+    # subLessons
+    lessonCount
+  }
+}
+query getDashboard($day: String!, $videoLevel: LevelName!) {
+  todayLesson(day: $day) {
+    ...DashboardLessonFields
+  }
+  popularLessons {
+    total
+    totalLessons
+    data {
+      ...DashboardLessonFields
+    }
+  }
+  savedLessons {
+    total
+    totalLessons
+    data {
+      ...DashboardLessonFields
+    }
+  }
+  myCourses(size: 3) {
+    _id
+    # tags
+    # isSingle
+    title
+    introduction
+    youtubeId
+    videoLevel
+    videoLevelLabel @client
+    topicTitle
+    # topicDetails
+    lessonCount
+  }
+  newUploadLessons(day: $day, videoLevel: $videoLevel) {
+    total
+    totalLessons
+    data {
+      ...DashboardLessonFields
+    }
+  }
+}
+
+query getDashboardDraftLessons {
+  draftLessons {
+    total
+    totalLessons
+    data {
+      ...LessonFields
+    }
+  }
+}
+
+query getLessonDeatil($id: String!) {
+  currentLessonId @client
+  lesson(id: $id) {
+    _id
+    lessonId
+    courseId
+    youtubeId
+    lessonName
+    isSaved
+    isCompleted
+    title
+    tags
+    videoLevel
+    videoLevelLabel @client
+    introduction
+    isMy
+    scenes {
+      start
+      end
+      langs
+    }
+    phrases {
+      word
+      meaning
+      meanings {
+        lang
+        meaning
+      }
+    }
+  }
+}
+
+mutation setLessonSaved($id: String!, $isSave: Boolean!) {
+  setLessonSaved(lessonId: $id, isSave: $isSave) {
+    _id
+    isSaved
+  }
+}
+
+mutation setLessonCompleted($lessonId: String!) {
+  setLessonCompleted(lessonId: $lessonId) {
+    _id
+    isCompleted
+  }
+}
+
+query getCourse($id: String!) {
+  course(id: $id) {
+    _id
+    tags
+    title
+    introduction
+    topicTitle
+    videoLevel
+    videoLevelLabel @client
+    youtubeId
+    # lessonCount
+    lessons {
+      _id
+      lessonName
+      completedAt
+
+      scenes {
+        start
+        end
+      }
+    }
+  }
+}
+
+mutation addToMyLesson($lessonId: String!) {
+  addToMyLesson(lessonId: $lessonId) {
+    _id
+    isMy
+  }
+}
+
+mutation setNote($wordData: WordData!) {
+  setNote(wordData: $wordData)
+}
+mutation reportLessonIssue($report: LessonReport!) {
+  reportLessonIssue(report: $report)
+}
+
+query searchDictionary($search: String!) {
+  dictionary(search: $search) {
+    entry
+    meaning {
+      korean
+      noun
+      verb
+      adverb
+      adjective
+    }
+    ipa
+  }
+}
+
+query getDictation($sceneIdx: Int!) {
+  dictation(sceneIdx: $sceneIdx) @client
+}
+query getRecords($sceneIdx: Int!) {
+  records(sceneIdx: $sceneIdx) @client {
+    audioAsBase64
+    audioUrl
+    sampleRate
+    stt {
+      error
+      confidence
+      transcript
+      percent
+    }
+  }
+}
+
+query getNotes($size: Int!, $page: Int!) {
+  getNotes(size: $size, page: $page) {
+    page
+    size
+    total
+    totalPage
+    data {
+      _id
+      word
+      meaning
+    }
+  }
+}
+
+query moreNotes($cursor: String, $size: Int!) {
+  moreNotes(cursor: $cursor, size: $size) {
+    cursor
+    hasMore @client
+    nodes {
+      _id
+      word
+      meaning
+      kor
+      noun
+      verb
+      adv
+      adj
+    }
+  }
+}
+
+mutation deleteNote($id: String!) {
+  deleteNote(id: $id)
+}
+
+query gerReviewCompletedLessons($cursor: String, $size: Int!) {
+  moreCompletedLessons(cursor: $cursor, size: $size) {
+    cursor
+    hasMore @client
+    nodes {
+      _id
+      lessonName
+      completedAt
+      videoLevel
+      videoLevelLabel @client
+      videoType
+      youtubeId
+    }
+  }
+}
+
+mutation uploadProfilePicture($imageBase64: String!) {
+  uploadProfilePicture(imageBase64: $imageBase64) {
+    _id
+    profilePic
+  }
+}
+
+query getUserProgress {
+  progressState {
+    totalCount
+    datetimes
+    counts {
+      type
+      count
+    }
+  }
+}
+
+query getLevels {
+  levels {
+    _id
+    name
+  }
+}
+
+mutation setLevel($levelName: LevelName!) {
+  setLevel(levelName: $levelName) {
+    _id
+    userLevelId
+    userLevelName
+  }
+}
+
+query getUserGuide {
+  userGuide {
+    introduction
+    youtubeId
+  }
+}

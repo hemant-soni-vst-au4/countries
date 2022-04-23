@@ -1,0 +1,14 @@
+schema:
+  - http://localhost:4044/dev
+  # - https://api-dev.speakypeaky.com/graphql
+  - src/reactapp/client-schema.graphql
+documents: 'src/reactapp/**/*.graphql'
+generates:
+  src/reactapp/types-and-hooks.tsx:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+hooks:
+  afterOneFileWrite:
+    - prettier --write

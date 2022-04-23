@@ -1,0 +1,177 @@
+.search-list {
+  ion-segment-button {
+    text-transform: none;
+  }
+}
+
+.course {
+  padding: 15px 0px;
+  border-bottom: 1px solid #c6c6c6;
+  ion-thumbnail {
+    width: 147px;
+    height: 120px;
+    --border-radius: 10px;
+    margin: 0 auto;
+  }
+  h2.ion-text-wrap {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  h2.ion-text-wrap,
+  #tags {
+    line-height: 1.4em;
+    max-height: 2.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #tags {
+    font-size: 14px;
+    display: block;
+  }
+  #scenes-count {
+    margin: 5px 0px;
+    color: #4870B8;
+  }
+
+  #sub-lessons {
+    margin: 0px;
+    padding: 15px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #efefef;
+    color: #4870B8
+  }
+  p#sub-lessons:last-child {
+    border-bottom: none;
+    padding: 15px 32px;
+  }
+  .expand-wrapper {
+    max-height: 30em;
+    overflow: auto;
+    transition: max-height 0.5s, overflow 0.5s 0.5s;
+    margin: 0px 10px;
+    #lesson-name {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .studied-date {
+      font-size: 14px;
+      text-align: right;
+      color: #c6c6c6;
+    }
+  }
+  .collapsible-icon ion-icon {
+    font-size: 25px;
+  }
+  .collapsed {
+    // display: none !important;
+    max-height: 0;
+    /*and eventually delay an overflow:auto; */
+    overflow: hidden;
+    transition: max-height 0.5s, overflow 0s;
+  }
+}
+@media only screen and (max-width: 414px) {
+  
+  .course {
+    ion-thumbnail {
+      margin: 0 auto;
+      width: 135px;
+      height: 110px;
+    }
+  }
+}
+
+.course {
+  padding: 15px 0px;
+  border-bottom: 1px solid #c6c6c6;
+  ion-thumbnail {
+    width: 147px;
+    height: 120px;
+    --border-radius: 10px;
+    margin: 0 auto;
+  }
+  h2.ion-text-wrap {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  h2.ion-text-wrap,
+  #tags {
+    line-height: 1.4em;
+    max-height: 2.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #tags {
+    font-size: 14px;
+    display: block;
+  }
+  #scenes-count {
+    margin: 5px 0px;
+    color: #4870B8;
+  }
+  #collapsible-icons {
+    font-size: 25px;
+  }
+  #sub-lessons {
+    margin: 0px;
+    padding: 15px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #efefef;
+    color: #4870B8;
+  }
+  p#sub-lessons:last-child {
+    border-bottom: none;
+    padding: 15px 20px;
+  }
+  .expand-wrapper {
+    max-height: 30em;
+    overflow: auto;
+    transition: max-height 0.5s, overflow 0.5s 0.5s;
+    margin: 0px 10px;
+    #lesson-name {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .studied-date {
+      font-size: 14px;
+      text-align: right;
+      color: #c6c6c6;
+    }
+  }
+  .collapsed {
+    // display: none !important;
+    max-height: 0;
+    /*and eventually delay an overflow:auto; */
+    overflow: hidden;
+    transition: max-height 0.5s, overflow 0s;
+  }
+}
+@media only screen and (max-width: 414px) {
+  
+  .course {
+    ion-thumbnail {
+      margin: 0 auto;
+      width: 135px;
+      height: 110px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+  .course p#sub-lessons:last-child{
+    padding: 15px 14%;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .course p.sub-lessons:last-child{
+    padding-left: 5%;
+  }
+}

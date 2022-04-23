@@ -1,0 +1,36 @@
+.popular-lessons-page {
+  ion-content {
+    ion-list {
+      ion-item {
+        --padding-start: 0;
+        --inner-padding-end: 0;
+        ion-thumbnail {
+          width: 170px;
+          height: 120px;
+          --border-radius: 10px;
+        }
+        h2.ion-text-wrap {
+          line-height: 1.35em;
+          max-height: 2.7em;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        ion-icon {
+          margin-inline-start: 10px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    ion-content {
+      ion-list {
+        ion-item {
+          ion-thumbnail {
+            width: 120px;
+            height: 90px;
+          }
+        }
+      }
+    }
+  }
+}
