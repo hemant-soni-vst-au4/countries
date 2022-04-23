@@ -1,0 +1,34 @@
+type SpeechToTextResult {
+  error: Boolean
+  confidence: Float
+  transcript: String
+  percent: Float
+}
+
+type AudioRecordResult {
+  audioAsBase64: String
+  audioUrl: String
+  sampleRate: Int
+  stt: SpeechToTextResult
+}
+
+extend type Query {
+  currentLessonId: String
+  dictation(sceneIdx: Int!): String
+  records(sceneIdx: Int!): [AudioRecordResult]
+}
+extend type Mutation {
+  updateDictation(id: ID!): String
+}
+extend type WordNoteCursorPage {
+  hasMore: Boolean
+}
+extend type LessonCursorPage {
+  hasMore: Boolean
+}
+extend type Lesson {
+  videoLevelLabel: String
+}
+extend type Course {
+  videoLevelLabel: String
+}

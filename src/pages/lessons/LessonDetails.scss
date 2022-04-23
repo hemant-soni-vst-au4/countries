@@ -1,0 +1,115 @@
+.lesson-details-page {
+  .detailButton {
+    --background: #e22d2d;
+    --border-width: 0px;
+    --border-style: solid;
+    --background-hover: #c45555;
+    --background-activated : #c45555;
+  }
+  ion-spinner {
+    display: block;
+    margin: 0 auto;
+    height: 275px;
+  }
+  #highlight-save-lesson-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 7px 6px 0px 6px;
+    border-radius: 25px;
+    background: #ffffff;
+    cursor: pointer;
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+
+  .c-orange {
+    color: #f47d3e;
+  }
+
+  .youtube-handler {
+    padding-top: 10px;
+    background: #efefef;
+    padding-bottom: 4px;
+    ion-icon {
+      font-size: 35px;
+    }
+  }
+  ion-footer {
+    ion-row {
+      ion-col {
+        margin-bottom: 7px;
+      }
+    }
+  }
+
+  
+  .lesson-heading {
+    color: #aca7a7;
+  }
+
+  #highlight-save-lesson-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 7px 6px 0px 6px;
+    border-radius: 25px;
+    background: #ffffff;
+    cursor: pointer;
+    &.save-loading {
+      background: #f8f8f8;
+      padding: 6px;
+    }
+    ion-spinner {
+      width: 25px;
+      height: 25px;
+    }
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+
+  .player-wrapper {
+    background-color: #000;
+    position: relative;
+    .player-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 200;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .play-btn {
+        position: relative;
+        overflow: hidden;
+    
+        border-radius: 10px;
+        width: 95%;
+        height: 60%;
+      }
+    }
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  .youtube-handler {
+    padding-top: 10px;
+    background: #efefef;
+    padding-bottom: 4px;
+    ion-icon {
+      font-size: 35px;
+    }
+  }
+
+  .display-block {
+    display: block;
+  }
+}
+
+

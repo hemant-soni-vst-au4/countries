@@ -1,0 +1,14 @@
+{
+  "appId": "com.summer.startenglishnow",
+  "appName": "Speaky Peaky",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "capacitor": {},
+  "server": {
+    "allowNavigation": [
+      "speakypeaky.com",
+      "*.speakypeaky.com"
+    ]
+  }
+}

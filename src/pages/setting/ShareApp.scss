@@ -1,0 +1,36 @@
+.share-app {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 34px;
+  #share-icons {
+    display: block;
+    margin: 0 auto;
+  }
+  ul {
+    padding-inline-start: 20px;
+    li:first-child {
+      margin-bottom: 1em;
+    }
+  }
+  .c-red {
+    color: #e22d2d;
+  }
+  .c-red:hover {
+    cursor: pointer;
+  }
+  .copy-link {
+    display: block;
+    background: white;
+    padding: 15px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    .link {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .share-img {
+    display: flex;
+  }
+}

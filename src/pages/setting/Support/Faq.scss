@@ -1,0 +1,25 @@
+.Faq {
+.expand-wrapper {
+    //   height: 0;
+    transition: 0.2s linear;
+  }
+  .searchbar-input-container {
+    --line-height: 40px !important;
+    --border-radius: 50px !important;
+  }
+  
+  .collapsed {
+    height: 0 !important;
+  }
+  ion-item {
+    --inner-padding-bottom: 10px;
+    --inner-padding-top: 10px;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+  
+    ion-icon {
+      font-size: 25px;
+      color: #747474;
+    }
+  }
+}

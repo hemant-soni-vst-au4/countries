@@ -1,0 +1,382 @@
+.lessons-page {
+  .logo {
+    display: block;
+    // margin: 0 auto;
+  }
+  .todaysLessonsHeading {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .today-lesson {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    
+  }
+   
+  .horizontal-lesson:hover {
+    background-color: #f2f2f2;
+  }
+  .today-lesson:hover {
+    background-color: #f2f2f2;
+  }
+  ion-thumbnail {
+    width: 95%;
+    height: 145px;
+    --border-radius: 10px;
+  }
+  .video-title {
+    line-height: 1.3em;
+    font-weight: 400;
+    height: 2.5em;
+    overflow: hidden;
+  }
+
+  .lessons-horizontal {
+    margin: 8px auto;
+    padding-bottom: 2px;
+  }
+
+  ul {
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll !important;
+    margin-block-end: 0px;
+    padding-bottom: 14px;
+    li {
+      -webkit-box-flex: 0;
+      flex: 0 0 auto;
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 14px;
+      width: 200px;
+      cursor: pointer;
+      h5 {
+        margin: 7px 0px 0px;
+        cursor: pointer;
+      }
+    }
+    
+  }
+  hr {
+    background: #d8d8d8;
+    margin: 0px 15px;
+  }
+  .video-title, ion-img, h5{
+    cursor: pointer;
+  }
+  
+  ion-list {
+    ion-item {
+      --padding-start: 0;
+      --inner-padding-end: 0;
+      ion-thumbnail {
+        width: 150px;
+        height: 100px;
+        --border-radius: 10px;
+      }
+      h2.ion-text-wrap {
+        line-height: 1.35em;
+        max-height: 2.7em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      ion-icon {
+        margin-inline-start: 10px;
+      }
+    }
+  }
+  .video-category-label {
+    margin: 5px 0px 0px 0px;
+    font-size: 14.5px;
+  }
+  ion-button.btn-share-now {
+    --background: white;
+    --color: #e22d2d;
+    --border-color: #f51515;
+    --border-width: 1px;
+    font-weight:700;
+    --border-style: solid;
+    --background-activated: #f5eeee;
+    --background-hover: #f5eeee;
+    margin: 0 24px;
+  }
+
+  .pro-package-bg {
+    background-color: #f49864;
+    padding: 20px 0;
+    h1{
+      color: #fff;
+    }
+    img {
+      padding: 20px 0;
+    }
+  }
+
+  .trial-package {
+    
+    .trial-package-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 41px;
+        color: #000000;
+        white-space: nowrap;
+      }
+      p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #000000;
+        
+      }
+      ion-button{
+        --background: #E22D2D;
+        --border-width: 0px;
+        --border-style: solid;
+        --background-hover: #c45555;
+        font-family: 'Open Sans';
+      }
+    }
+    
+    img {
+      width: 100%;
+      height: 350px;
+    border-radius: 20px;
+    }
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 414px) {
+    ion-thumbnail {
+      height: 130px;
+    }
+
+    ion-list {
+      ion-item {
+        ion-thumbnail {
+          width: 120px;
+          height: 90px;
+        }
+      }
+    }
+
+    ul {
+      li {
+        width: 180px;
+      }
+    }
+    
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+
+.my-custom{
+    --height: 405px;
+    --width: 780px;
+  .modal-wrapper {
+      background: #D73C50;
+      color: white;
+      --box-shadow: 0px 5px 10px #953844;
+      --border-radius: 20px;
+  }
+  .modal{
+    --background: #D73C50;
+}
+ .content{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+ }
+ .image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+ h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: start;
+ }
+ p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px; 
+    width: 93%;
+    text-align: start;
+    padding-bottom: 50px;
+ }
+ img {
+     width: 35%;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  
+    .my-custom {
+        --background: rgba(0, 0, 0, 0.5);
+        --height: 500px;
+        --width: 270px;
+        .modal-wrapper {
+            background: #D73C50;
+            color: white;
+            --box-shadow: 0px 5px 10px #953844;
+            --border-radius: 20px;
+            // --width: 85%;
+          //   margin: 60px auto;
+        }
+        .content{
+            padding-top: 30px;
+            // padding-bottom: 60px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+         }
+         .image-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0px;
+          }
+          
+     h2 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        width: 100%;
+        padding: 5px 0;
+        text-align: start;
+     }
+     p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.24px; 
+        width: 100%;
+        text-align: start;
+        padding-bottom: 5px;
+     }
+    }
+    .lessons-page {
+    .trial-package {
+      .trial-package-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        h1 {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 30px;
+          color: #000000;
+          // white-space: nowrap;
+        }
+        p{
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          // line-height: 23px;
+          color: #000000;
+          // white-space: nowrap;
+        }
+        ion-button{
+          --background: #E22D2D;
+          --border-width: 0px;
+          --border-style: solid;
+          --background-hover: #c45555;
+          // margin: 0 24px;
+          // font-family: ''Open Sans'';
+          // font-style: bold;
+          // --font-weight: bold;
+          // // font-size: 12px;
+          // text-align: center;
+          // --border-radius: 16px;
+          // width: auto;
+          // margin: 0px auto;
+        }
+      }
+     
+      
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+
+  .lessons-page {
+    .trial-package {
+      .trial-package-text{
+  
+        h1 {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 14px;
+          color: #000000;
+          white-space: nowrap;
+        }
+        p{
+          font-size: 14px;
+          // line-height: 14px;
+          color: #000000;
+          // white-space: nowrap;
+        }
+        // ion-button{
+        //   font-family: ''Open Sans'';
+        //   font-style: normal;
+        //   --font-weight: bold;
+        //   // font-size: 11px;
+        //   text-align: center;
+        //   --border-radius: 16px;
+        //   width: auto;
+        //   margin: 0px auto;
+        // }
+      }
+     
+      
+      img {
+        width: 100%;
+        height: auto;
+    border-radius: 20px;
+      }
+    }
+  }
+}
+
+

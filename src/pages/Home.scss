@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.my-custom-class {
+    --height: 50%;
+//   #background-content {
+//     --background: 'rgba(0, 0, 0, 0.5)' !important;
+//   }
+  .modal-wrapper {
+      background: #D73C50;
+      color: white;
+      --box-shadow: 0px 5px 10px #953844;
+      --border-radius: 20px;
+      --width: 60%;
+    //   margin: 60px auto;
+  }
+  .modal{
+    --background: #D73C50;
+}
+ .content{
+    // padding-top: 10px;
+    // padding-bottom: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+ }
+ .image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+ h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: start;
+ }
+ p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px; 
+    width: 93%;
+    text-align: start;
+    padding-bottom: 50px;
+ }
+ img {
+     width: 35%;
+ }
+//  .mobile{
+//     padding-left: 15%;
+//  }
+}
+
+@media only screen and (max-width: 768px) {
+    .my-custom-class {
+        --background: rgba(0, 0, 0, 0.5);
+        --height: 82%;
+        .modal-wrapper {
+            background: #D73C50;
+            color: white;
+            --box-shadow: 0px 5px 10px #953844;
+            --border-radius: 20px;
+            --width: 85%;
+          //   margin: 60px auto;
+        }
+        .content{
+            padding-top: 30px;
+            // padding-bottom: 60px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+         }
+         .image-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0px;
+          }
+          
+     h2 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        width: 100%;
+        padding: 30px 0;
+        text-align: start;
+     }
+     p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27.24px; 
+        width: 100%;
+        text-align: start;
+        padding-bottom: 50px;
+     }
+    }
+}

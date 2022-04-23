@@ -1,0 +1,125 @@
+.subscribe {
+  .subscription-card {
+    background-color: #d8d8d8;
+  }
+  .monthly {
+    ion-card-content {
+      padding: 30px 0px;
+    }
+  }
+  .subscription-card p,
+  .subscription-title,
+  .subscription-amount,
+  .stripe-subscription-card {
+    color: #212121;
+  }
+  .subscription-title {
+    font-size: 21px;
+    font-weight: 300;
+  }
+  .subscription-amount {
+    font-size: 34px;
+    span {
+      font-size: 18px;
+    }
+  }
+  h1,h3 {
+      font-weight: 400;
+  }
+  .light-bg {
+    padding: 20px 0px;
+    background-color: #eeeeee;
+  }
+
+  .year {
+    border: 4px solid #e02020;
+  }
+  .half-year {
+    border: 1px solid #e02020;
+  }
+
+  .flag {
+    width: 75px;
+    height: 28px;
+    margin: 0 auto;
+    position: absolute;
+    padding: 8px 0px;
+    top: 15px;
+    right: 25px;
+    z-index: 999;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+    background: #e02020;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .flag:after {
+    right: 0;
+    border-right: 45px solid #e02020;
+  }
+  .flag:before {
+    left: 0;
+    border-left: 45px solid #e02020;
+  }
+  .flag:after,
+  .flag:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -14px;
+    border-bottom: 15px solid transparent;
+  }
+  .productCard {
+    cursor: pointer;
+  }
+  #auto-renewal {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .stripe-subscription-card {
+    border-radius: 25px;
+    margin: 0px 15px;
+    height: 426px;
+    ion-card-content {
+      padding: 25px 16px;
+      ion-button {
+        margin-bottom: 20px;
+      }
+    }
+    .price-block {
+      border-bottom: 1px solid #7b7b7b;
+      min-height: 265px;
+    }
+  }
+
+  .stripe-subscription-title {
+    margin-bottom: 20px;
+  }
+  .stripe-subscription-amount,
+  .stripe-subscription-title {
+    font-weight: 700;
+  }
+  .stripe-subscription-amount {
+    font-size: 34px;
+  }
+  .actual-price {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .sub-prices {
+    font-size: 18px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .stripe-subscription-card.monthly {
+    .stripe-subscription-amount {
+      margin-bottom: 45px;
+      margin-top: 30px;
+    }
+  }
+}

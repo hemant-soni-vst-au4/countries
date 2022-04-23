@@ -1,0 +1,490 @@
+.lesson-step-page {
+  .youtube-handler {
+    padding-top: 4px;
+    background: #efefef;
+    padding-bottom: 4px;
+    
+    .action-icon {
+      font-size: 34px;
+      vertical-align: middle;
+      // padding: 5px 5px 5px 5.5px;
+      // border-radius: 25px;
+      // background: #efefef;
+      // border: 2px solid #000;
+    }
+    .steps-scenes-icon {
+      vertical-align: middle;
+      font-size: 28px;
+    }
+    ion-icon {
+      font-size: 35px;
+    }
+  }
+  
+
+  .line-breaker {
+    white-space: pre-line;
+  }
+
+  .play-rate-area-left {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .play-rate-area-right {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .padding {
+    padding: 16px;
+  }
+
+  .dictation {
+    @extend .padding;
+  }
+
+  .practice {
+    @extend .padding;
+  }
+
+  // ion-col {
+  //   position: initial !important;
+  // }
+  .dictionary-icon {
+    width: 25px;
+  }
+  #info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 5%;
+    max-width: 32px;
+  }
+  #playback-rate {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 5%;
+    max-width: 32px;
+  }
+  .lesson-loop {
+    padding: 0px 3px;
+    color: #7e7d7d;
+    font-size: 16px;
+  }
+
+  ion-item.dictation-textarea {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    height: 121px;
+  }
+  ion-spinner {
+    display: block;
+    margin: 0 auto;
+    height: 275px;
+  }
+  .mt-100 {
+    margin-top: 100px;
+  }
+  // ion-button {
+  //   --background: #e22d2d !important;
+  //   --background-hover: #c45555 important;
+  // }
+  .practice {
+    h5 {
+      margin-left: 7px;
+      font-weight: 600;
+    }
+    .lesson-loop {
+      padding: 0px 3px;
+      color: #7e7d7d;
+      font-size: 16px;
+    }
+  }
+
+  .reviewing {
+    
+    h5 {
+      margin-left: 7px;
+      font-weight: 600;
+      font-size: 18px;
+      margin-top: 16px;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    .translation-btn {
+      text-transform: capitalize;
+      font-size: 11px;
+      margin-right: 15px;
+      --padding-start: 10px;
+      --padding-end: 10px;
+    }
+    ion-icon {
+      font-size: 30px;
+    }
+    #subTitle {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      // -webkit-touch-callout: unset;
+      -webkit-user-select: text;
+      -khtml-user-select: text;
+      -moz-user-select: text;
+      -ms-user-select: text;
+      user-select: text;
+    }
+    .review-diffs {
+      border: 1px solid #c6c6c6;
+      border-radius: 10px;
+      height: 121px;
+      overflow-y: scroll;
+      padding: 5px 8px;
+      margin-top: 16px;
+    }
+  }
+  .shadowing {
+    ion-text {
+      color: #7e7d7d;
+      font-size: 12px;
+    }
+    ion-img {
+      margin: 0 auto;
+      width: 18%;
+      margin-top: 7px;
+    }
+  }
+
+  ul.tools {
+    display: none;
+    list-style: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    border: solid 1px #000;
+    position: absolute;
+    background: #fff;
+  }
+  ul.tools li {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    border: solid 1px #000;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  ion-footer {
+    ion-row {
+      ion-col {
+        margin-bottom: 7px;
+      }
+    }
+  }
+
+  #lesson-steps {
+    cursor: pointer;
+    padding-left: 10px;
+
+    .steps-scenes-icon {
+      font-size: 25px;
+      color: #7e7d7d;
+    }
+  }
+
+  #lesson-scenes {
+    cursor: pointer;
+    text-align: right;
+    padding-right: 10px;
+
+    .steps-scenes-icon {
+      font-size: 25px;
+      color: #7e7d7d;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    #info {
+      width: 8%;
+    }
+    #playback-rate {
+      width: 8%;
+    }
+    .shadowing {
+      ion-img {
+        width: 35%;
+      }
+    }
+    #lesson-steps {
+      padding-left: 10px;
+      font-size: 14px;
+
+      .steps-scenes-icon {
+        font-size: 25px;
+        color: #7e7d7d;
+      }
+    }
+    #lesson-scenes {
+      text-align: right;
+      padding-right: 10px;
+      font-size: 14px;
+
+      .steps-scenes-icon {
+        font-size: 25px;
+        color: #7e7d7d;
+      }
+    }
+  }
+  .confidence-level {
+    #checkmark-icon {
+      color: #000000;
+      font-size: 16px;
+      ion-icon {
+        font-size: 24px;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+    ion-progress-bar {
+      height: 18px !important;
+      border-radius: 25px !important;
+      margin-top: 3px;
+      margin-bottom: 0px;
+      --background: #d8d8d8;
+      .progress,
+      .progress-indeterminate {
+        border-radius: 25px !important;
+      }
+    }
+    ion-progress-bar.latest-confidence {
+      --progress-background: #f8d980;
+    }
+    ion-progress-bar.old-confidence {
+      --progress-background: #979797;
+    }
+  }
+  .percent {
+    font-size: 16px !important;
+  }
+  .transcript {
+    ion-text {
+      font-size: 16px;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+  .indicator {
+    background-color: #e22d2d;
+    position: absolute;
+    z-index: 2;
+
+    &__cta {
+      // top: -20px;
+      // left: 50%;
+      position: absolute;
+    }
+
+    &__cta-link {
+      background-color: #e22d2d;
+      border-radius: 5px 5px 5px 5px;
+      bottom: 0px;
+      // box-shadow: 2px 2px 5px #e22d2d;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13), 0 3px 6px rgba(0, 0, 0, 0.13);
+      color: #ffffff;
+      cursor: pointer;
+      left: 0px;
+      font-size: 14px;
+      // padding: 11px;
+      padding: 9px 11px;
+      // position: absolute;
+      transform: translateX(-50%);
+      white-space: nowrap;
+
+      &:before {
+        // bottom: 27px;
+        // font-size: 15px;
+        // left: 50%;
+        // line-height: 11px;
+
+        bottom: 30px;
+        font-size: 20px;
+        left: 50%;
+        line-height: 20px;
+
+        content: '▲';
+        color: #e22d2d;
+        position: absolute;
+        transform: translateX(-50%);
+      }
+
+      &:hover {
+        background-color: #e22d2d;
+        // background-color: #e2ff2d;
+        color: #ffffff;
+
+        &:after {
+          color: #e22d2d;
+        }
+      }
+    }
+  }
+
+  .dictation-guide-noti {
+    position: fixed;
+    top: 30%;
+    // position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+    .noti-message {
+      background-color: #e22d2d;
+      max-width: 250px;
+      border-radius: 25px;
+      border-color: #e22d2d;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 14px;
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+        0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .player-wrapper {
+    background-color: #000;
+    position: relative;
+    // padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+    .player-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 200;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      // background-color: #4444;
+      .overlay-msg {
+        background-color: #0007;
+        color: white;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .play-btn {
+        position: relative;
+        overflow: hidden;
+        // background-color: #822;
+        border-radius: 10px;
+        width: 95%;
+        height: 60%;
+        display: flex;
+        .touch-block {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .fadeOut {
+            animation-name: fadeOut;
+            animation-duration: 1s;
+            animation-delay: 0.1s;
+            // animation-iteration-count: infinite;
+            // animation-timing-function: linear;
+            // animation-direction: alternate;
+          }
+          .label {
+            // width: 30px;
+            // height: 30px;
+            font-size: 24px;
+            background-color: #222a;
+            border-radius: 6px;
+            padding: 6px;
+            color: white;
+            // background-color: red;
+          }
+        }
+        .backward {
+          // background-color: #aff;
+        }
+        .play-pause {
+          flex: 2;
+          .label {
+            // width: 30px;
+            // height: 30px;
+            font-size: 44px;
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 6px;
+            color: white;
+            // background-color: red;
+          }
+          // background-color: #faa;
+        }
+        .forward {
+          // background-color: #ffa;
+        }
+      }
+    }
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  // Step3
+}
+@import 'LessonStepListen.scss';
+@import 'LessonStepReListen.scss';
+
+.dictionaryModal {
+  --width: 360px;
+  --height: 360px;
+  .modal-wrapper .ion-page {
+    padding: 15px;
+    overflow: scroll;
+    .header {
+      display: flex;
+      align-items: center;
+      #play-icon {
+        width: 11%;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+    #modal-dismiss {
+      font-size: 25px;
+    }
+  }
+}
+
+.reviewingStepInfo {
+  --width: 310px;
+  --height: 160px;
+  .modal-wrapper .ion-page {
+    padding: 15px;
+    #modal-dismiss {
+      font-size: 25px;
+    }
+  }
+}

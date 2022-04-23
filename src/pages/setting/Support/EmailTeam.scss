@@ -1,0 +1,15 @@
+.email-team {
+ion-item {
+    border: 1px solid #c6c6c6;
+    --border-color: #fff;
+    border-radius: 5px;
+  }
+
+  .item-highlight, .item-inner-highlight {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    --background: orange !important;
+  }
+}

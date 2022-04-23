@@ -1,0 +1,56 @@
+.user-level-panel {
+  .player-wrapper {
+    position: relative;
+    background-color: #000;
+    min-height: 250px;
+    .player-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 200;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .play-btn {
+        position: relative;
+        overflow: hidden;
+        // background-color: #822;
+        border-radius: 10px;
+        width: 95%;
+        height: 60%;
+      }
+    }
+  }
+
+  h5 {
+    font-weight: 400;
+  }
+  ion-spinner {
+    display: block;
+    margin: 0 auto;
+    height: 170px;
+  }
+  ion-card {
+    border: 1.2px solid #d8d8d8;
+  }
+  .youtube-handler {
+    padding-top: 10px;
+    background: #efefef;
+    padding-bottom: 4px;
+    ion-icon {
+      font-size: 35px;
+      // padding: 5px 5px 5px 5.5px;
+      // border-radius: 25px;
+      // background: #efefef;
+      // border: 2px solid #000;
+    }
+  }
+  .level-up-guideline-bg {
+    background: url('level-up-guideline.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550;
+  }
+}
