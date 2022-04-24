@@ -1,0 +1,62 @@
+{
+  "onbording": {
+    "next": "NEXT",
+    "prev": "PREV",
+    "skip": "SKIP",
+    "button": "Let's start",
+    "title1": "Listen correctly, speak confidently",
+    "title2": "Categorized lesson plan",
+    "title3": "Systematic method of learning",
+    "description1": "Learn English through interactive and engaging\n video lessons with English subtitles, transitions,\n explanations and instant feedback",
+    "description2": "We have categorized English Lessons so\n you can be ready for different situations",
+    "description3": "Study video lessons that consist of 8-13\n sentences using the steps above"
+  },
+  "postbording": {
+    "question": "QUESTION",
+    "title1": "What is your native language?",
+    "subTitle1": " We will provide script translations and a dictionary function in your chosen language.",
+    "title2": "How much can you understand",
+    "title3": "Would you like to receive a reminder?",
+    "title3p3": "It's most effective, if you make it your habit",
+    "title2p2": "from the video below?",
+    "titleDesktop":"How much can you understand from the video below?",
+    "q1o1": "Not much (0-40%)",
+    "q1o2": "About half (40-70%)",
+    "q1o3": "Quite a lot (70%~)",
+    "q2o1": "Korean",
+    "q2o2": "Spanish",
+    "q2o3": "Vietnamese",
+    "q2o4": "Portuguese",
+    "q3o1": "Yes, set a reminder.",
+    "q3o2": "(Push notification)"
+  },
+  "authentication": {
+    "button1": "Get started",
+    "button2": "Log in",
+    "button3": "I already have an account",
+    "title": "Listen Correctly Speak Confidently",
+    "login": "Login",
+    "signUp": "Create your profile",
+    "subtitle1": "to recive",
+    "subtitle2": "5 free lessons",
+    "subtitle3": "and save your study data",
+    "terms1": "I agree to the",
+    "terms2": "Terms of Use",
+    "terms3": "Privacy Policy",
+    "forgot": "Forgot Password?",
+    "media": "EASILY LOGIN WITH",
+    "noAccount": "Don't have an account?",
+    "noAccount2": "Sign up",
+    "noAccount3": "here.",
+    "existAccount": "Already have an account?",
+    "existAccount2": "Log in"
+  },
+  "forgotPassword": {
+    "title": "Forgot password?",
+    "message": "Don’t worry. Enter your email to receive your reset instructions.",
+    "placeholder": "Enter your email",
+    "button": "send",
+    "notificationTitle": "Check your email",
+    "notificationMessage": "Reset instructions have been sent!"
+  }
+}

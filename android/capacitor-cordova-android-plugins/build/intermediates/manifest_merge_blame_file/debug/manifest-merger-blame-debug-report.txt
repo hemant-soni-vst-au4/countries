@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+3    xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="capacitor.android.plugins" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:17:1-76
+10-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:17:18-74
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:18:1-66
+11-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:18:18-64
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:19:1-75
+12-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:19:18-73
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:20:1-70
+13-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:20:18-68
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:21:1-62
+14-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:21:18-60
+15
+16    <application>
+16-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:1-16:15
+17        <receiver android:name="cordova.plugins.Diagnostic$LocationProviderChangedReceiver" >
+17-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:12
+17-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:11-84
+18            <intent-filter>
+18-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:7:3-9:19
+19                <action android:name="android.location.PROVIDERS_CHANGED" />
+19-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:5-64
+19-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:13-62
+20            </intent-filter>
+21        </receiver>
+22        <receiver android:name="cordova.plugins.Diagnostic$NFCStateChangedReceiver" >
+22-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:1-15:12
+22-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:11-76
+23            <intent-filter>
+23-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:3-14:19
+24                <action android:name="android.nfc.action.ADAPTER_STATE_CHANGED" />
+24-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:13:5-70
+24-->/Users/hemantsoni/Documents/GitHub/speakypeaky/sppk-front/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:13:13-68
+25            </intent-filter>
+26        </receiver>
+27    </application>
+28
+29</manifest>

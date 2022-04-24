@@ -1,0 +1,14 @@
+<svg width="193" height="190" viewBox="0 0 193 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="99.5" cy="73.5" r="56.5" fill="#D4D4FF" />
+    <rect x="117.268" y="117.787" width="3" height="30.6086" transform="rotate(-37.5224 117.268 117.787)"
+        fill="#E95D5D" />
+    <rect x="124.865" y="143.767" width="17.996" height="55.1379" rx="8.99798"
+        transform="rotate(-37.5224 124.865 143.767)" fill="#E95D5D" />
+    <circle cx="76.7297" cy="70.6629" r="58" transform="rotate(7.47756 76.7297 70.6629)" stroke="#394179"
+        stroke-width="10" />
+    <circle cx="76.7297" cy="70.6629" r="54" transform="rotate(7.47756 76.7297 70.6629)" stroke="#E95D5D"
+        stroke-width="4" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M117.619 117.846L111.762 122.343L127.595 142.96C125.237 146.432 125.243 151.16 127.939 154.671L148.038 180.843C151.402 185.224 157.68 186.048 162.06 182.684C166.44 179.32 167.264 173.042 163.9 168.662L143.801 142.489C141.362 139.313 137.389 138.006 133.72 138.811L117.619 117.846Z"
+        fill="#394179" />
+</svg>

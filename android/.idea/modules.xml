@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/602988293/android.capacitor-android.iml" filepath="$PROJECT_DIR$/.idea/modules/602988293/android.capacitor-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1992178780/android.capacitor-app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1992178780/android.capacitor-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2117057662/android.capacitor-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/-2117057662/android.capacitor-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capacitor-cordova-android-plugins/android.capacitor-cordova-android-plugins.iml" filepath="$PROJECT_DIR$/.idea/modules/capacitor-cordova-android-plugins/android.capacitor-cordova-android-plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1219502669/android.capacitor-device.iml" filepath="$PROJECT_DIR$/.idea/modules/-1219502669/android.capacitor-device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-573966913/android.capacitor-haptics.iml" filepath="$PROJECT_DIR$/.idea/modules/-573966913/android.capacitor-haptics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-334461180/android.capacitor-keyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/-334461180/android.capacitor-keyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2029780105/android.capacitor-local-notifications.iml" filepath="$PROJECT_DIR$/.idea/modules/2029780105/android.capacitor-local-notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/547035143/android.capacitor-screen-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/547035143/android.capacitor-screen-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/400932514/android.capacitor-share.iml" filepath="$PROJECT_DIR$/.idea/modules/400932514/android.capacitor-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1617522325/android.capacitor-status-bar.iml" filepath="$PROJECT_DIR$/.idea/modules/1617522325/android.capacitor-status-bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1911994242/android.capacitor-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1911994242/android.capacitor-storage.iml" />
+    </modules>
+  </component>
+</project>
