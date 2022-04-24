@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon/home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="icon/home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Background"></g>
+        <path d="M12.5,3.55734938 L5.62113063,11.5449696 C5.54298268,11.6357136 5.5,11.7514923 5.5,11.8712486 L5.5,20.5 C5.5,20.7761424 5.72385763,21 6,21 L19,21 C19.2761424,21 19.5,20.7761424 19.5,20.5 L19.5,11.8712486 C19.5,11.7514923 19.4570173,11.6357136 19.3788694,11.5449696 L12.5,3.55734938 Z" id="Rectangle" stroke="#212121" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        <rect id="Rectangle" stroke="#212121" fill="#212121" mask="url(#mask-2)" x="10.5" y="15.5" width="4" height="5"></rect>
+    </g>
+</svg>
