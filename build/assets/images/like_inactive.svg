@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>icon/like_inactive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/like_inactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/bookmark_inactive" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <path d="M12.4497152,10 C14.4105604,6 16.0576496,4 17.3909829,4 C19.3909829,4 20.7341287,7.0080265 19.3909829,10.9957512 C18.4955524,13.6542343 16.1817965,16.6556506 12.4497152,20 C8.40851448,16.6556506 6.05560372,13.6542343 5.39098294,10.9957512 C4.39405176,7.0080265 5.39098294,4 7.39098294,4 C8.72431627,4 10.4105604,6 12.4497152,10 Z" id="Path-5" stroke="#212121" fill-rule="nonzero"></path>
+        <path d="M12.4497152,10 C14.4105604,6 16.0576496,4 17.3909829,4 C19.3909829,4 20.7341287,7.0080265 19.3909829,10.9957512 C18.4955524,13.6542343 16.1817965,16.6556506 12.4497152,20 C8.40851448,16.6556506 6.05560372,13.6542343 5.39098294,10.9957512 C4.39405176,7.0080265 5.39098294,4 7.39098294,4 C8.72431627,4 10.4105604,6 12.4497152,10 Z" id="Path-5" stroke="#212121" fill-rule="nonzero"></path>
+    </g>
+</svg>

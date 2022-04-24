@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest package="capacitor.android.plugins"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:amazon="http://schemas.amazon.com/apk/res/android">
+<application  >
+<receiver android:name="cordova.plugins.Diagnostic$LocationProviderChangedReceiver">
+  <intent-filter>
+    <action android:name="android.location.PROVIDERS_CHANGED"/>
+  </intent-filter>
+</receiver>
+<receiver android:name="cordova.plugins.Diagnostic$NFCStateChangedReceiver">
+  <intent-filter>
+    <action android:name="android.nfc.action.ADAPTER_STATE_CHANGED"/>
+  </intent-filter>
+</receiver>
+</application>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="com.android.vending.BILLING"/>
+</manifest>
